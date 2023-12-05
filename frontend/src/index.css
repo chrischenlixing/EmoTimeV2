@@ -1,0 +1,166 @@
+*{
+    font-family: sans-serif !important;
+}
+
+a{
+    color: #0D6EFD !important;
+}
+
+.aoe-btn-submit{
+    background-color: #0D6EFD !important;
+    color: #ffffff !important;
+}
+
+/* h1{
+    margin-bottom: 0.5rem;
+    font-size: larger;
+} */
+
+label{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.form-inline .form-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.form-inline label {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Gradient background styles */
+.gradient-custom-3 {
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  }
+  
+  /* Form-specific styling */
+  .form-control {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem; 
+  }
+  
+  .form-select {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem; 
+  }
+  
+  /* Button styling */
+  .aoe-btn-submit {
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    color: #ffffff !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .aoe-btn-cancel {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+    color: #ffffff !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .aoe-btn-submit:hover {
+    background-color: #0952CC !important;
+  }
+  
+  /* Label styling */
+  .aoe-text {
+    color: #6495ED;
+    font-size: 1rem;
+    font-weight: 600; 
+  }
+
+  .register-login-title {
+    margin-bottom: 0.5rem;
+    font-size: larger;
+    color: #6495ED;
+    font-weight: 600;
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+/* Navigation bar styles */
+/* .navbar {
+    background-color: #C3B1E1;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+  } */
+
+  
+
+  

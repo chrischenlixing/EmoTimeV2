@@ -1,0 +1,80 @@
+nav {
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  /* Style the header inside the nav bar */
+  .aot-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logout container with a subtle shadow */
+  .logout-container {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  /* Style the logout link to look like a fancy button */
+  .logout {
+    background-color: #f06c9b;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change the background color slightly when hovering over the button */
+  .logout:hover {
+    background-color: #f783ac;
+  }
+  
+  /* Style the Manager Page or Employee text */
+  nav > div:last-child {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Ensure the calendar component is not too jarring against the colorful background */
+  .Calendar {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the buttons container */
+  .buttons-container {
+    display: flex;
+  }
+  
+  /* Style the navigation buttons */
+  .nav-button {
+    background-color: #6dd5ed;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Change the background color slightly when hovering over the button */
+  .nav-button:hover {
+    background-color: #2193b0;
+  }
+  
+  /* Move buttons to the right */
+  .buttons-container {
+    margin-left: auto;
+  }

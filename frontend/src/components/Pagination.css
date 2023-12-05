@@ -1,0 +1,73 @@
+/* Layout adjustments */
+.aot-pagination {
+    display: flex; 
+    justify-content: center;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Spacing improvements */
+.pagination .page-link {
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+/* Color scheme */
+.pagination .page-link {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.pagination .page-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Typography changes */
+.pagination .page-link,
+.rows-per-page label,
+.page-number span {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Interactive elements */
+.pagination .page-link {
+    transition: background-color 0.3s ease;
+}
+
+/* Borders and Corners */
+.pagination .page-link {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.page-number {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 0 15px;
+}
+
+/* Rows per page section */
+.rows-per-page {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.select {
+    border: none;
+    background-color: #f8f9fa;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none; /* Removes the default focus outline */
+}
+
+/* Adjust the select box */
+.form-select {
+    padding: 5px 10px;
+    border-radius: 5px;
+}

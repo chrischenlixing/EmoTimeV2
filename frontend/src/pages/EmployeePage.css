@@ -1,0 +1,63 @@
+.logout {
+    cursor: pointer;
+    color: blue !important;
+    text-decoration: underline !important;
+    padding-left: 20px;
+}
+
+body {
+    background: #FFB6C1; /* Pink background color */
+    background: -webkit-linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(255, 182, 193, 0.5));
+    background: linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(255, 182, 193, 0.5));
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set the body height to cover the entire viewport height */
+    overflow: hidden; /* Hide horizontal scrollbar if any */
+  }
+  
+
+#h1-symbol {
+    color: #E00070;
+}
+
+
+.centering {
+    text-align: center;
+}
+
+.aot-form {
+    justify-content: center;
+}
+
+.aot-form select,
+.aot-form input {
+    width: 200px;
+}
+
+.aot-form label {
+    margin-right: 10px;
+}
+
+.aot-form>div {
+    margin-right: 20px;
+}
+
+.aot-button{
+    width: auto !important;
+}
+.aot-head{
+    display: flex;
+}
+.aot-table{
+    margin: 20px;
+    width: -webkit-fill-available !important;
+}
+
+#reviewsTable {
+    max-width: 50%; /* You can adjust the percentage to your desired width */
+    margin: 0 auto; /* This will horizontally center the table */
+  }
+
+  .h1-symbol{
+    text-align:center;
+  }

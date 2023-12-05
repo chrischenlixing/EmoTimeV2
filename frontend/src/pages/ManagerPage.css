@@ -1,0 +1,39 @@
+.operation-icon{
+    width:32px;
+    height:32px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.aot-modal{
+    max-width: 800px !important;
+}
+
+.reviewing-label{
+    display: flex;
+    justify-content: space-around;
+}
+.reviewing-inputgroup{
+    display: flex;
+    padding-top: 10px;
+}
+.reviewing-input-label{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+body {
+    background: #FFB6C1; /* Pink background color */
+    background: -webkit-linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(255, 182, 193, 0.5));
+    background: linear-gradient(to right, rgba(255, 182, 193, 0.5), rgba(255, 182, 193, 0.5));
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set the body height to cover the entire viewport height */
+    overflow: hidden; /* Hide horizontal scrollbar if any */
+  }
+  
+  #reviewsTable {
+    max-width: 50%; /* You can adjust the percentage to your desired width */
+    margin: 0 auto; /* This will horizontally center the table */
+  }
