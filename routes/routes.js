@@ -58,7 +58,7 @@ router.post('/api/login', async (req, res) => {
       const redirectPath = user.position === 'manager' ? '/manager' : '/employee';
       res.redirect(redirectPath);
     } else {
-      res.redirect('/?msg=Your opassword is incorrect, please reenter');
+      res.redirect('/?msg=Your password is incorrect, please reenter');
     }
   } else {
     res.redirect('/?msg=user not exists');
