@@ -8,10 +8,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 
-import IndexPage from "./pages/IndexPage.js";
-import RegisterPage from "./pages/RegisterPage.js";
-import EmployeePage from "./pages/EmployeePage.js";
-import ManagerPage from "./pages/ManagerPage.js";
+import IndexPage from "./pages/IndexPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import EmployeePage from "./pages/EmployeePage.jsx";
+import ManagerPage from "./pages/ManagerPage.jsx";
 import "./index.css";
 
 
