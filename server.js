@@ -3,6 +3,7 @@ const router = require('./routes/routes');
 const session = require('express-session');
 const fileUpload = require('express-fileupload');
 const busboy = require('connect-busboy');
+const passport = require('passport');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
@@ -12,13 +13,20 @@ app.use(express.static(path.join(__dirname, 'frontend/build')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(busboy());
+
 app.use(session({
   secret: 'emotime666',
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
+
 }));
 app.use(fileUpload({ createParentPath: true }));
-app.use(router);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use('/', router);
+
 
 app.listen(PORT, () => {
   console.log(`Listening for connections on port ${PORT}`);

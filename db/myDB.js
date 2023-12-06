@@ -68,6 +68,16 @@ module.exports = {
       throw error; 
     }
   },
+
+  findUserById: async (id) => {
+    try {
+      return await db.collection(usersCollection).findOne({ _id: id });
+    } catch (error) {
+      console.error("Error in findUserById:", error);
+      throw error;
+    }
+  },
+  
   addUser: async (user) => {
     try {
       return await db.collection(usersCollection).insertOne(user);

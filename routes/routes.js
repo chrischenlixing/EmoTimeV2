@@ -2,14 +2,13 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 const bcrypt = require('bcrypt');
-
+const passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
 
 const myDB = require('../db/myDB');
 const { shiftList } = require('../data/shiftList');
 
 const loginRedirect = '/?msg=login needed';
-
-
 
 function isEmployee(req) {
   return req.session.user.position === 'employee';
@@ -18,6 +17,42 @@ function isEmployee(req) {
 function isManager(req) {
   return req.session.user.position === 'manager';
 }
+
+passport.use(new LocalStrategy(
+  async (username, password, done) => {
+    try {
+      const user = await myDB.findUser(username);
+      if (!user) {
+        return done(null, false, { message: 'User not found' });
+      }
+
+      const passwordMatch = await bcrypt.compare(password, user.password);
+      if (!passwordMatch) {
+        return done(null, false, { message: 'Incorrect password' });
+      }
+
+      return done(null, user);
+    } catch (err) {
+      console.error('Passport LocalStrategy Error:', err);
+      return done(err); // Pass the error to Passport
+    }
+  }
+));
+
+passport.serializeUser(function(user, done) {
+  done(null, user._id);
+});
+
+passport.deserializeUser(async (id, done) => {
+  try {
+    const user = await myDB.findUserById(id);
+    done(null, user);
+  } catch (err) {
+    console.error('Error occurred during deserialization:', err);
+    done(err);
+  }
+});
+
 
 router.get('/api/userRole', (req, res) => {
   console.log('/api/userRole hit'); 
@@ -45,24 +80,14 @@ router.get('/api/allReviews', async (req, res) => {
   }
 });
 
-router.post('/api/login', async (req, res) => {
-  const data = req.body;
-  const user = await myDB.findUser(data.username);
-
-  if (user) {
-    const passwordMatch = await bcrypt.compare(data.password, user.password);
-
-    if (passwordMatch) {
-      req.session.user = user;
-      req.session.login = true;
-      const redirectPath = user.position === 'manager' ? '/manager' : '/employee';
-      res.redirect(redirectPath);
-    } else {
-      res.redirect('/?msg=Your password is incorrect, please reenter');
-    }
-  } else {
-    res.redirect('/?msg=user not exists');
-  }
+router.post('/api/login', passport.authenticate('local', {
+  failureRedirect: '/?msg=Invalid username or password'
+}), (req, res) => {
+  const user = req.user;
+  req.session.user = user;
+  req.session.login = true;
+  const redirectPath = user.position === 'manager' ? '/manager' : '/employee';
+  res.redirect(redirectPath);
 });
 
 router.post('/api/register', async (req, res) => {
