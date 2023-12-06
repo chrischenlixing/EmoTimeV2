@@ -27,7 +27,7 @@ passport.use(new LocalStrategy(
       return done(null, user);
     } catch (err) {
       console.error('Passport LocalStrategy Error:', err);
-      return done(err); // Pass the error to Passport
+      return done(err); 
     }
   }
 ));
@@ -49,38 +49,39 @@ passport.deserializeUser(async (id, done) => {
 
 function ensureAuthenticated(req, res, next) {
   if (req.session.login) {
-    next(); // User is authenticated, continue to the next middleware/route handler
+    next(); 
   } else {
-    res.redirect(loginRedirect); // User is not authenticated, redirect to login
+    res.redirect(loginRedirect); 
   }
 }
 
-function isEmployee(req) {
-  return req.session.user.position === 'employee';
+function isEmployee(req, res, next) {
+  if (req.session.user && req.session.user.position === 'employee') {
+    next();
+  } else {
+    res.status(403).json({ error: 'Unauthorized' });
+  }
 }
 
-function isManager(req) {
-  return req.session.user.position === 'manager';
+function isManager(req, res, next) {
+  if (req.session.user && req.session.user.position === 'manager') {
+    next();
+  } else {
+    res.status(403).json({ error: 'Unauthorized' });
+  }
 }
 
-router.get('/api/userRole', (req, res) => {
-  console.log('/api/userRole hit'); 
+router.get('/api/userRole', ensureAuthenticated, (req, res) => {
   if (req.session.user) {
-    console.log('User is in session:', req.session.user);
     res.json({ role: req.session.user.position });
   } else {
-    console.log('User not logged in');
     res.status(401).json({ error: 'User is not logged in' });
   }
 });
 
 
-router.get('/api/allReviews', ensureAuthenticated, async (req, res) => {
+router.get('/api/allReviews', ensureAuthenticated, isManager, async (req, res) => {
   try {
-    if (!isManager(req)) {
-      return res.status(403).json({ error: 'Unauthorized' });
-    }
-
     const docs = await myDB.getAllReviews();
     res.json(docs);
   } catch (err) {
@@ -118,11 +119,7 @@ router.post('/api/register', async (req, res) => {
   }
 });
 
-router.post('/api/addShift', async (req, res) => {
-  if (!req.session.login || !isEmployee(req)) {
-    return res.redirect(loginRedirect);  
-  }
-
+router.post('/api/addShift', ensureAuthenticated, isEmployee, async (req, res) => {
   const data = { shift: req.body.shift, name: req.session.user.username };
 
   try {
@@ -139,10 +136,7 @@ router.post('/api/addShift', async (req, res) => {
   }
 });
 
-router.post('/api/deleteOneShift', async (req, res) => {
-  if (!req.session.login || !isEmployee(req)) {
-    return res.redirect(loginRedirect);  
-  }
+router.post('/api/deleteOneShift', ensureAuthenticated, isEmployee, async (req, res) => {
 
   const data = { shift: req.body.shift, name: req.session.user.username };
 
@@ -158,10 +152,7 @@ router.post('/api/deleteOneShift', async (req, res) => {
   }
 });
 
-router.post('/api/giveReviews', async (req, res) => {
-  if (!req.session.login || !isManager(req)) {
-    return res.redirect(loginRedirect);
-  }
+router.post('/api/giveReviews', ensureAuthenticated, isManager, async (req, res) => {
 
   try {
     const data = await myDB.giveReviews(req.body);
@@ -172,11 +163,7 @@ router.post('/api/giveReviews', async (req, res) => {
   }
 });
 
-router.get('/api/getByName', async (req, res) => {
-  if (!req.session.login) {
-    return res.redirect(loginRedirect);
-  }
-
+router.get('/api/getByName', ensureAuthenticated, async (req, res) => {
   try {
     const docs = await myDB.findByName(req.session.user.username);
     res.json(docs);
@@ -186,35 +173,25 @@ router.get('/api/getByName', async (req, res) => {
   }
 });
 
-router.post('/api/clockin', async (req, res) => {
-  if (!req.session.login || !isEmployee(req)) {
-    return res.redirect(loginRedirect);
-  }
-
+router.post('/api/clockin', ensureAuthenticated, isEmployee, async (req, res) => {
   try {
     const data = req.body;
     data.name = req.session.user.username;
 
     await myDB.addCheckIn(data);
     res.json({ message: 'Successfully clocked in' });
-
-
   } catch (err) {
-    console.error('# Get Error', err);
+    console.error('# Post Error', err);
     res.status(500).send({ error: `${err.name}, ${err.message}` });
   }
 });
 
-router.post('/api/getCheckInByName', async (req, res) => {
-  if (!req.session.login) {
-    return res.redirect(loginRedirect);
-  }
-
+router.post('/api/getCheckInByName', ensureAuthenticated, async (req, res) => {
   try {
     const docs = await myDB.getCheckInByName(req.body);
     res.json(docs);
   } catch (err) {
-    console.error('# Get Error', err);
+    console.error('# Post Error', err);
     res.status(500).send({ error: `${err.name}, ${err.message}` });
   }
 });
@@ -225,16 +202,12 @@ router.get('/api/logout', async (req, res) => {
   res.json();
 });
 
-router.post('/api/search', async (req, res) => {
-  if (!req.session.login || !isManager(req)) {
-    return res.redirect(loginRedirect);
-  }
-
+router.post('/api/search', ensureAuthenticated, isManager, async (req, res) => {
   try {
     const docs = await myDB.searchReviews(req.body);
     res.json(docs);
   } catch (err) {
-    console.error('# Get Error', err);
+    console.error('# Post Error', err);
     res.status(500).send({ error: `${err.name}, ${err.message}` });
   }
 });
