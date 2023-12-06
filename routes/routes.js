@@ -10,13 +10,6 @@ const { shiftList } = require('../data/shiftList');
 
 const loginRedirect = '/?msg=login needed';
 
-function isEmployee(req) {
-  return req.session.user.position === 'employee';
-}
-
-function isManager(req) {
-  return req.session.user.position === 'manager';
-}
 
 passport.use(new LocalStrategy(
   async (username, password, done) => {
@@ -54,6 +47,22 @@ passport.deserializeUser(async (id, done) => {
 });
 
 
+function ensureAuthenticated(req, res, next) {
+  if (req.session.login) {
+    next(); // User is authenticated, continue to the next middleware/route handler
+  } else {
+    res.redirect(loginRedirect); // User is not authenticated, redirect to login
+  }
+}
+
+function isEmployee(req) {
+  return req.session.user.position === 'employee';
+}
+
+function isManager(req) {
+  return req.session.user.position === 'manager';
+}
+
 router.get('/api/userRole', (req, res) => {
   console.log('/api/userRole hit'); 
   if (req.session.user) {
@@ -66,17 +75,17 @@ router.get('/api/userRole', (req, res) => {
 });
 
 
-router.get('/api/allReviews', async (req, res) => {
-  if (!req.session.login || !isManager(req)) {
-    return res.redirect(loginRedirect);
-  }
-
+router.get('/api/allReviews', ensureAuthenticated, async (req, res) => {
   try {
+    if (!isManager(req)) {
+      return res.status(403).json({ error: 'Unauthorized' });
+    }
+
     const docs = await myDB.getAllReviews();
     res.json(docs);
   } catch (err) {
     console.error('# Get Error', err);
-    res.status(500).send({ error: `${err.name}, ${err.message}` });
+    res.status(500).json({ error: `${err.name}, ${err.message}` });
   }
 });
 
@@ -89,6 +98,7 @@ router.post('/api/login', passport.authenticate('local', {
   const redirectPath = user.position === 'manager' ? '/manager' : '/employee';
   res.redirect(redirectPath);
 });
+
 
 router.post('/api/register', async (req, res) => {
   const data = req.body;
