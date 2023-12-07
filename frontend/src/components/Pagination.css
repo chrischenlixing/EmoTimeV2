@@ -19,10 +19,7 @@
     color: #333;
 }
 
-.pagination .page-link:hover {
-    background-color: #007bff;
-    color: white;
-}
+
 
 /* Typography changes */
 .pagination .page-link,

@@ -36,7 +36,16 @@ function RegisterPage() {
   }, [registerURL]);
 
   return (
-    <div className="gradient-custom-3" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+    <div className="gradient-custom-3" style={{ minHeight: "100vh", flexDirection: "column", justifyContent: "center" }}>
+                       <nav className="nav">
+          <div className="aot-head">
+            <div className="logo-container">
+              <div className="logo-text">
+                EmoNotes
+              </div>
+            </div>
+          </div>
+        </nav>
       <main>
         <div className="container">
           <div id="Register-row" className="row justify-content-center align-items-center">
@@ -52,7 +61,7 @@ function RegisterPage() {
                   <div className="card">
                     <div className="card-body">
                       <div className="form-group mb-4">
-                      <h1 className="register-login-title">Create an Account</h1>
+                      <h1 className="register-login-title">Register</h1>
                         <label htmlFor="username" className="aoe-text">
                           Username:
                         </label>

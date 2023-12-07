@@ -18,11 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 3001",
     "build": "vite build",
     "serve": "vite preview"
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -47,7 +46,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "react-calendar": "^4.6.1",
     "react-devtools": "^4.26.1",
-    "vite": "^5.0.5"
+    "vite": "^5.0.6"
   },
   "proxy": "http://localhost:3000"
 }

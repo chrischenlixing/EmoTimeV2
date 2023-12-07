@@ -9,6 +9,7 @@ import { createRoot } from "react-dom/client";
 import { Modal } from 'bootstrap'
 
 
+
 function EmployeePage() {
 
     const initShiftListURL = '/api/getShiftList';
@@ -16,6 +17,7 @@ function EmployeePage() {
     const loadDataURL = '/api/getByName';
     const checkInURL = '/api/clockin';
     const loadCheckInDataURL = '/api/getCheckInByName';
+    const logout = '/api/logout'
 
     const [tableData, setTableData] = useState([]);
     const [rowsPerPage, setRowsPerPage] = useState(0);
@@ -306,34 +308,10 @@ function EmployeePage() {
 
     return (
         <>
-            <NavBar></NavBar>
+        <NavBar handleAddShift={handleAddShift} logout = {logout} />
   
 
             <main className="body">
-                <div class="container">
-
-            
-                <form
-                    id="registerShift-form"
-                    className="form-inline aot-form"
-                    action="/"
-                    method="post"
-                    onSubmit={handleAddShift}
-                >
-                    <div className="form-group">
-                        <label htmlFor="shiftList" className="aoe-text">
-                            Select a Shift Date:
-                        </label>
-                        <select className="form-select" name="shiftList" id="shiftList">
-                        </select>
-                    </div>
-                    <div className="form-group">
-                        <div className="form-group">
-                            <button type="submit" className="btn btn-primary aoe-btn-submit">Submit</button>
-                        </div>
-                    </div>
-                </form>
-                </div>
                 <table className="table aot-table table-striped" id="reviewsTable">
                     <thead>
                         <tr>

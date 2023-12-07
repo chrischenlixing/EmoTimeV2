@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import UseCheckMsg from "../hooks/UseCheckMsg";
-import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
+import { useNavigate } from "react-router-dom"; 
+import "./IndexPage.css";
 
 function IndexPage() {
   const loginURL = '/api/login/';
@@ -35,8 +36,17 @@ function IndexPage() {
   }, [loginURL]);
 
   return (
-    <div className="gradient-custom-3" style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-      <header><nav>EmoTime</nav></header>
+    <div className="gradient-custom-3" style={{ minHeight: "100vh", flexDirection: "column", justifyContent: "center" }}>
+               <nav className="nav">
+          <div className="aot-head">
+            <div className="logo-container">
+              <div className="logo-text" >
+                EmoNotes
+              </div>
+            </div>
+          </div>
+        </nav>
+
       <main>
         <div className="container">
           <div id="login-row" className="row justify-content-center align-items-center">

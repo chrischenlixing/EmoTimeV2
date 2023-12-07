@@ -16,6 +16,7 @@ function ManagerPage() {
     const reviewingURL = '/api/giveReviews';
 
 
+
     const [tableData, setTableData] = useState([]);
     const [rowsPerPage, setRowsPerPage] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
@@ -176,15 +177,13 @@ function ManagerPage() {
             console.error('Error:', error);
         });
     };
-    
-    //show check in records
+
     const showCheckIn = (obj) => {
         let checkInModal = new Modal(document.getElementById('checkInModal'));
         checkInModal.show();
         loadModalData(obj);
     }
 
-    //load check in data
     const loadModalData = (obj) => {
         fetch(loadCheckInDataURL, {
             method: 'POST',
@@ -244,7 +243,6 @@ function ManagerPage() {
     }, [modalTableData, modalRowsPerPage, modalCurrentPage])
 
 
-    //show reviewing table
     const showReviewing = (obj) => {
         reviewingTable.current = new Modal(document.getElementById('reviewingModal'));
         reviewingTable.current.show();
@@ -252,7 +250,7 @@ function ManagerPage() {
         document.getElementById('reviewingName').innerHTML = "Name: " + obj.name;
     }
 
-    //submit reviewing
+
     const submitReviewing = () => {
         let obj = {
             "name": document.getElementById('reviewingName').innerHTML.split(" ")[1],
@@ -302,45 +300,11 @@ function ManagerPage() {
 
     return (
         <>
-            <Navbar></Navbar>
+            <Navbar handleSearchShift={handleSearchShift} />
 
             <main>
-                <form
-                    id="Search-form"
-                    className="form-inline aot-form"
-                    action="/"
-                    method="post"
-                    onSubmit={handleSearchShift}
-                >
-                    <div className="form-group">
-                        <label htmlFor="name" className="aoe-text">
-                            Name:
-                        </label>
-                        <br />
-                        <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            className="form-control"
-                        />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="shift" className="aoe-text">
-                            Shift:
-                        </label>
-                        <br />
-                        <input
-                            type="text"
-                            name="shift"
-                            id="shift"
-                            className="form-control"
-                        />
-                    </div>
-                    <div className="form-group">
-                        <button type="submit" className="btn btn-primary aoe-btn-submit">Search</button>
-                    </div>
 
-                </form>
+            
                 <table className="table aot-table table-striped" id="reviewsTable">
                     <thead>
                         <tr>

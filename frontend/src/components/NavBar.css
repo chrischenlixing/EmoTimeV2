@@ -42,10 +42,12 @@ nav {
   
   /* Ensure the calendar component is not too jarring against the colorful background */
   .Calendar {
-    border: 1px solid #ddd;
-    background-color: white;
-    padding: 10px;
+    background-color: #f06c9b;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
   }
 
   .logo-container {
@@ -78,3 +80,5 @@ nav {
   .buttons-container {
     margin-left: auto;
   }
+
+  

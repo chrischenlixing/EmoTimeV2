@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import Calendar from './MyCalendar';
 import './NavBar.css';
 import { useUserRole } from '../hooks/UseUserRole';
 import { Modal } from 'react-bootstrap';
+import SearchBar from './SearchBar';
+import ShiftBar from './ShiftBar';
 
-function NavBar({ handleLogout }) {
+function NavBar({ handleSearchShift , handleAddShift,logOut }) {
   const position = useUserRole();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -21,13 +22,21 @@ function NavBar({ handleLogout }) {
     <nav aria-label="log out">
       <div className="aot-head">
         <div className="logo-container">
-          <div className="logo-text">{position === 'manager' ? 'EmoTime Manager' : 'EmoTime Employee'}</div>
+          <div className="logo-text">
+            {position === 'manager' ? 'EmoTime Manager' : 'EmoTime Employee'}
+          </div>
         </div>
         <div className="buttons-container">
+          {position === 'manager' && (
+            <SearchBar handleSearchShift={handleSearchShift} />
+          )}
+          {position === 'employee' && (
+            <ShiftBar handleAddShift={handleAddShift} />
+          )}
           <button className="nav-button" onClick={openModal}>
-            Open Calendar
+            Calendar
           </button>
-          <a className="nav-button" id="LogoutAction" onClick={handleLogout} href="/">
+          <a className="nav-button" id="LogoutAction" onClick = {logOut} href='/'>
             Logout
           </a>
         </div>
@@ -49,7 +58,7 @@ function NavBar({ handleLogout }) {
 }
 
 NavBar.propTypes = {
-    handleLogout: PropTypes.func.isRequired,
-  };
+
+};
 
 export default NavBar;
