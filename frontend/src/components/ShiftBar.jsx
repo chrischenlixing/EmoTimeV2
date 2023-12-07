@@ -24,10 +24,6 @@ const ShiftBar = ({ handleAddShift }) => {
             value={selectedShift}
             onChange={(e) => setSelectedShift(e.target.value)}
           >
-            {/* Populate options dynamically */}
-            {/* Example option */}
-            <option value="shift1">Shift 1</option>
-            {/* Add other options as needed */}
           </select>
         </div>
         <div className="form-group">

@@ -41,8 +41,13 @@ function IndexPage() {
           <div className="aot-head">
             <div className="logo-container">
               <div className="logo-text" >
-                EmoNotes
+                EmoTime
+                <br />
+                <span className='small-text'>
+                  HR ClockIn Platform
+                </span>
               </div>
+
             </div>
           </div>
         </nav>

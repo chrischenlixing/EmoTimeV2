@@ -81,4 +81,6 @@ nav {
     margin-left: auto;
   }
 
-  
+  .small-text {
+    font-size: 14px; /* Adjust the font size as needed */
+  }

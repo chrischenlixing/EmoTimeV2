@@ -37,11 +37,15 @@ function RegisterPage() {
 
   return (
     <div className="gradient-custom-3" style={{ minHeight: "100vh", flexDirection: "column", justifyContent: "center" }}>
-                       <nav className="nav">
+          <nav className="nav">
           <div className="aot-head">
             <div className="logo-container">
               <div className="logo-text">
-                EmoNotes
+                EmoTime
+                <br />
+                <span className='small-text'>
+                  HR ClockIn Platform
+                </span>
               </div>
             </div>
           </div>
@@ -94,8 +98,12 @@ function RegisterPage() {
                       </div>
                       <div className="form-group">
                         <button type="submit" className="btn btn-info btn-lg aoe-btn-submit">Register</button>
-                        {/* Cancel button with Link */}
-                        <Link to="/" className="btn aoe-btn-cancel btn-lg ml-2">Cancel</Link>
+
+                      </div>
+                      <div className="form-group">
+                      <Link to="/" className="btn aoe-btn-cancel btn-lg ml-2 with-top-margin">
+                          Cancel
+                        </Link>
                       </div>
                     </div>
                   </div>

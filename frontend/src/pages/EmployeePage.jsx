@@ -17,7 +17,7 @@ function EmployeePage() {
     const loadDataURL = '/api/getByName';
     const checkInURL = '/api/clockin';
     const loadCheckInDataURL = '/api/getCheckInByName';
-    const logout = '/api/logout'
+    const logOut = '/api/logout'
 
     const [tableData, setTableData] = useState([]);
     const [rowsPerPage, setRowsPerPage] = useState(0);
@@ -308,7 +308,7 @@ function EmployeePage() {
 
     return (
         <>
-        <NavBar handleAddShift={handleAddShift} logout = {logout} />
+        <NavBar handleAddShift={handleAddShift} logOut = {logOut} />
   
 
             <main className="body">

@@ -23,7 +23,23 @@ function NavBar({ handleSearchShift , handleAddShift,logOut }) {
       <div className="aot-head">
         <div className="logo-container">
           <div className="logo-text">
-            {position === 'manager' ? 'EmoTime Manager' : 'EmoTime Employee'}
+          {position === 'manager' ? (
+              <>
+                EmoTime Manager
+                <br />
+                <span className="small-text">
+                  HR ClockIn Platform {/* Apply a span with a class */}
+                </span>
+              </>
+            ) : (
+              <>
+                EmoTime Employee
+                <br />
+                <span className="small-text">
+                  HR ClockIn Platform {/* Apply a span with a class */}
+                </span>
+              </>
+            )}
           </div>
         </div>
         <div className="buttons-container">

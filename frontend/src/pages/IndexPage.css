@@ -26,3 +26,7 @@ header {
 
     margin-left: 40px; 
   }
+
+  .small-text {
+    font-size: 5px; /* Adjust the font size as needed */
+  }
