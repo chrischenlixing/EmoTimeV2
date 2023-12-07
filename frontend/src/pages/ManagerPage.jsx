@@ -156,6 +156,27 @@ function ManagerPage() {
             console.error(error);
         })
     }
+
+    const handleDeleteShift = (shiftObj) => {
+        fetch('/api/deleteOneShift', { 
+            method: 'POST',
+            body: JSON.stringify(shiftObj),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.message) {
+                alert(data.message);
+                loadData(); 
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    };
+    
     //show check in records
     const showCheckIn = (obj) => {
         let checkInModal = new Modal(document.getElementById('checkInModal'));
@@ -222,25 +243,6 @@ function ManagerPage() {
 
     }, [modalTableData, modalRowsPerPage, modalCurrentPage])
 
-    const handleDeleteShift = (shiftObj) => {
-        fetch('/api/deleteOneShift', { 
-            method: 'POST',
-            body: JSON.stringify(shiftObj),
-            headers: {
-                'Content-Type': 'application/json'
-            },
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.message) {
-                alert(data.message);
-                loadData(); 
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    };
 
     //show reviewing table
     const showReviewing = (obj) => {

@@ -128,9 +128,12 @@ function EmployeePage() {
                   tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") return showCheckIn(obj) }}>
                   View
                 </button>
-                <button className="operation-button" onClick={() => handleDeleteShift(obj)}>
-                        Delete
-                    </button>
+                <button
+                className="operation-button"
+                onClick={() => handleDeleteShift(tableData[i].shift, tableData[i].name)}
+            >
+                Delete
+            </button>
                 
               </>
             )
@@ -176,7 +179,10 @@ function EmployeePage() {
         }
     };
 
-    const handleDeleteShift = (shiftObj) => {
+
+    const handleDeleteShift = (shift, name) => {
+        const shiftObj = { shift, name };
+    
         fetch('/api/deleteOneShift', { 
             method: 'POST',
             body: JSON.stringify(shiftObj),
@@ -188,7 +194,7 @@ function EmployeePage() {
         .then(data => {
             if (data.message) {
                 alert(data.message);
-                loadData(); 
+                loadData(); // Reload data after deletion
             }
         })
         .catch(error => {

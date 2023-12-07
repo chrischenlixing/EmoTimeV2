@@ -136,14 +136,16 @@ router.post('/api/addShift', ensureAuthenticated, isEmployee, async (req, res) =
   }
 });
 
-router.post('/api/deleteOneShift', ensureAuthenticated, isEmployee, async (req, res) => {
-
-  const data = { shift: req.body.shift, name: req.session.user.username };
+router.post('/api/deleteOneShift', ensureAuthenticated, async (req, res) => {
+  const data = {
+    shift: req.body.shift,
+    name: req.body.name
+  };
 
   try {
     const result = await myDB.deleteOneShift(data);
     if (result.deletedCount === 0) {
-      return res.status(404).json({ message: 'Shift not found or already deleted.' });
+      return res.status(404).json({ message: 'Shift is not found or already deleted.' });
     }
     res.json({ message: 'Shift successfully deleted.' });
   } catch (err) {
