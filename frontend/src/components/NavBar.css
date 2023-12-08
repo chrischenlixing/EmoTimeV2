@@ -84,3 +84,20 @@ nav {
   .small-text {
     font-size: 14px; /* Adjust the font size as needed */
   }
+
+  .logtext-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-grow: 2; /* Allow the container to grow and center its content */
+    margin-left: 500px; /* Adjust the left margin to move it to the right */
+  }
+  
+  .logtext {
+    margin: 0; /* Additional styling for the logtext */
+    /* Modify or add styles according to your design */
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+
+  

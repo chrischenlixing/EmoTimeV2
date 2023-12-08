@@ -44,3 +44,34 @@ body {
     /* Other pagination styles */
     background-color: transparent;
 }
+
+.operation-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.aot-modal {
+    max-width: 800px !important;
+}
+
+.reviewing-label {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviewing-inputgroup {
+    display: flex;
+    padding-top: 10px;
+}
+
+.reviewing-input-label {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Specify the desired font family */
+    /* ... (other existing styles) */
+}

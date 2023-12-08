@@ -36,14 +36,14 @@ function Pagination(props) {
         },[rowsPerPage]
     )
 
-    //jump to first page
+
     const toFirstPage = (e) => {
         if (currPage !== 1) {
             setCurrPage(1);
         }
     }
 
-    //jump to last page
+
     const toLastPage = (e) => {
         if (totalPages === 0) {
             console.log('No posts available');
@@ -55,26 +55,27 @@ function Pagination(props) {
         }
     }
 
-    //to next page
     const toNextPage = (e) => { 
-        if (currPage !== totalPages) {
+        if (currPage < totalPages) {
             setCurrPage(currPage + 1);
-        }
+        } 
+    
     }
 
-    //to pre page
     const toPrePage = (e) => {
-        if (currPage !==1) {
+        if (currPage > 1) {
             setCurrPage(currPage - 1);
         }
     }
-    //set rows per page
+
     const handleRowsPerPage=(e)=>{
         setRowsPerPage(parseInt(e.target.value));
     }
     return (
    
         <div className="aot-pagination">
+            {totalPages > 0 && (
+                <>
                 <nav aria-label={`${props.id}_pagination`}>
                     <ul className="pagination">
                         <li className="page-item">
@@ -118,6 +119,8 @@ function Pagination(props) {
                     </select>
                 </span>
             </div>
+            </>
+            )}
         </div>
      
     );

@@ -73,7 +73,8 @@ function isManager(req, res, next) {
 
 router.get('/api/userRole', ensureAuthenticated, (req, res) => {
   if (req.session.user) {
-    res.json({ role: req.session.user.position });
+    res.json({ role: req.session.user.position,
+            username:req.session.user.username });
   } else {
     res.status(401).json({ error: 'User is not logged in' });
   }

@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import Calendar from './MyCalendar';
 import './NavBar.css';
 import { useUserRole } from '../hooks/UseUserRole';
 import { Modal } from 'react-bootstrap';
 import SearchBar from './SearchBar';
 import ShiftBar from './ShiftBar';
 
-function NavBar({ handleSearchShift , handleAddShift,logOut }) {
-  const position = useUserRole();
+function NavBar({ handleSearchShift, handleAddShift, logOut }) {
+  const { position, username } = useUserRole();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -23,12 +22,12 @@ function NavBar({ handleSearchShift , handleAddShift,logOut }) {
       <div className="aot-head">
         <div className="logo-container">
           <div className="logo-text">
-          {position === 'manager' ? (
+            {position === 'manager' ? (
               <>
                 EmoTime Manager
                 <br />
                 <span className="small-text">
-                  HR ClockIn Platform {/* Apply a span with a class */}
+                  HR ClockIn Platform
                 </span>
               </>
             ) : (
@@ -36,11 +35,15 @@ function NavBar({ handleSearchShift , handleAddShift,logOut }) {
                 EmoTime Employee
                 <br />
                 <span className="small-text">
-                  HR ClockIn Platform {/* Apply a span with a class */}
+                  HR ClockIn Platform
                 </span>
               </>
             )}
           </div>
+               
+        </div>
+        <div className="logtext-container ">
+          {username && <p className="logtext">Welcome, {username}!</p>}
         </div>
         <div className="buttons-container">
           {position === 'manager' && (
@@ -52,29 +55,18 @@ function NavBar({ handleSearchShift , handleAddShift,logOut }) {
           <button className="nav-button" onClick={openModal}>
             Calendar
           </button>
-          <a className="nav-button" id="LogoutAction" onClick = {logOut} href='/'>
+          <a className="nav-button" id="LogoutAction" onClick={logOut} href='/'>
             Logout
           </a>
         </div>
+
       </div>
 
       <Modal show={isModalOpen} onHide={closeModal}>
-        <Modal.Header closeButton>
-          <Modal.Title>Calendar</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Calendar></Calendar>
-        </Modal.Body>
-        <Modal.Footer>
-          <button onClick={closeModal}>Close</button>
-        </Modal.Footer>
+        {/* Modal content... */}
       </Modal>
     </nav>
   );
 }
-
-NavBar.propTypes = {
-
-};
 
 export default NavBar;

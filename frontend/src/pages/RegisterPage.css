@@ -10,3 +10,7 @@
   #register-box {
     width: 600px; /* Set the width to 400 pixels */
   }
+
+  body {
+    font-family: 'Arial', sans-serif; /* Specify the desired font family */
+  }
