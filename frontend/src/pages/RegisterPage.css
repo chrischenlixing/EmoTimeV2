@@ -4,3 +4,9 @@
   .with-top-margin {
     margin-top: 10px; /* Adjust the margin-top value as needed */
   }
+
+
+  #login-box,
+  #register-box {
+    width: 600px; /* Set the width to 400 pixels */
+  }

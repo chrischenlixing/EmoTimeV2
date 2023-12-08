@@ -13,10 +13,12 @@ body {
     padding: 0; /* Remove default body padding */
     height: 100vh; /* Set the body height to cover the entire viewport height */
     overflow: hidden; /* Hide horizontal scrollbar if any */
+    
   }
-  
 
-#h1-symbol {
+
+
+#h1-symbol {        
     color: #E00070;
 }
 
@@ -61,3 +63,10 @@ body {
   .h1-symbol{
     text-align:center;
   }
+
+  .pagination-wrapper {
+    /* Add your specific styles for pagination here */
+    margin-top: 20px; /* Example margin */
+    /* Other pagination styles */
+}
+

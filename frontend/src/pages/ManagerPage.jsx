@@ -317,7 +317,9 @@ function ManagerPage() {
                     </thead>
                     <tbody ref={table}></tbody>
                 </table>
-                <Pagination totalNumber={totalNumber} pageChange={onPageChange} rowPerPageChange={onRowPerPageChange} id="managerMain"/>
+                <div className="pagination-wrapper">
+                    <Pagination totalNumber={totalNumber} pageChange={onPageChange} rowPerPageChange={onRowPerPageChange} id="managerMain"/>
+                </div>
                 <div className="modal fade" id="checkInModal" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog aot-modal">
                         <div className="modal-dialog modal-dialog-scrollable aot-modal">

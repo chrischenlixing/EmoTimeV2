@@ -122,14 +122,12 @@ function EmployeePage() {
             const root = createRoot(cell5);
             root.render(
                 <>
-                <button className="operation-button" onClick={() => clockinfunc(obj)} 
-                  tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") return clockinfunc(obj) }}>
-                  Clockin
-                </button>
-                <button className="operation-button" onClick={() => showCheckIn(obj)} 
-                  tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") return showCheckIn(obj) }}>
-                  View
-                </button>
+            <button className="operation-button"   onClick={() => handleClockin(obj)}  tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") return clockinfunc(obj) }}>
+                Clockin
+            </button>
+            <button className="operation-button" onClick={() => handleShowCheckIn(obj)} tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") return showCheckIn(obj) }}>
+                View
+            </button>
                 <button
                 className="operation-button"
                 onClick={() => handleDeleteShift(tableData[i].shift, tableData[i].name)}
@@ -247,6 +245,15 @@ function EmployeePage() {
         loadModalData(obj);
     }
 
+    const handleClockin = (obj) => {
+        clockinfunc(obj);
+      };
+    
+      const handleShowCheckIn = (obj) => {
+        showCheckIn(obj);
+      };
+
+
     //load check in data
     const loadModalData = (obj) => {
         fetch(loadCheckInDataURL, {
@@ -324,7 +331,9 @@ function EmployeePage() {
                     </thead>
                     <tbody ref={table}></tbody>
                 </table>
+                <div className="pagination-wrapper">
                 <Pagination totalNumber={totalNumber} pageChange={onPageChange} rowPerPageChange={onRowPerPageChange} id="employeeMain" />
+                </div>
                 <div className="modal fade" id="checkInModal" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog aot-modal">
                         <div className="modal-dialog modal-dialog-scrollable aot-modal">

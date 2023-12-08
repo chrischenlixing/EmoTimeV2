@@ -45,6 +45,11 @@ function Pagination(props) {
 
     //jump to last page
     const toLastPage = (e) => {
+        if (totalPages === 0) {
+            console.log('No posts available');
+            return; 
+        }
+    
         if (currPage !== totalPages) {
             setCurrPage(totalPages);
         }
@@ -68,6 +73,7 @@ function Pagination(props) {
         setRowsPerPage(parseInt(e.target.value));
     }
     return (
+   
         <div className="aot-pagination">
                 <nav aria-label={`${props.id}_pagination`}>
                     <ul className="pagination">
@@ -113,6 +119,7 @@ function Pagination(props) {
                 </span>
             </div>
         </div>
+     
     );
 }
 

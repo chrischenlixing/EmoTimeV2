@@ -47,7 +47,6 @@ function IndexPage() {
                   HR ClockIn Platform
                 </span>
               </div>
-
             </div>
           </div>
         </nav>
@@ -57,7 +56,6 @@ function IndexPage() {
           <div id="login-row" className="row justify-content-center align-items-center">
             <div id="login-column" className="col-md-6">
               <div id="login-box" className="col-md-12">
-                {/* Card-like structure for the login form */}
                 <div className="card">
                   <div className="card-body">
                     <form

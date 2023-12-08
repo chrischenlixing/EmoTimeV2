@@ -37,3 +37,10 @@ body {
     max-width: 50%; /* You can adjust the percentage to your desired width */
     margin: 0 auto; /* This will horizontally center the table */
   }
+
+  .pagination-wrapper {
+    /* Add your specific styles for pagination here */
+    margin-top: 40px; /* Example margin */
+    /* Other pagination styles */
+    background-color: transparent;
+}
