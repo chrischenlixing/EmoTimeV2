@@ -14,7 +14,6 @@ const generateData = () => {
       name: firstName,
       shift: chance.pickone(shiftList),
       reviews: chance.pickone([null, 'Good', 'Average', 'Bad']),
-      // Add other fields as needed
     };
     data.push(record);
   }

@@ -70,3 +70,15 @@ body {
     /* Other pagination styles */
 }
 
+
+.logout {
+    cursor: pointer;
+    color: blue !important;
+    text-decoration: underline !important;
+    padding-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Specify the desired font family */
+    /* ... (other existing styles) */
+}

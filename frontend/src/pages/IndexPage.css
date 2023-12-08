@@ -42,3 +42,7 @@ header {
     color: #000; /* Change the text color */
     background-color: #fff; /* Change the background color */
 }
+
+body {
+    font-family: 'Arial', sans-serif; 
+  }

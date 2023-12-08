@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const SearchBar = ({ handleSearchShift }) => {
 
@@ -40,5 +41,9 @@ const SearchBar = ({ handleSearchShift }) => {
         </form>
     );
 };
+
+SearchBar.propTypes = {
+    handleSearchShift: PropTypes.func.isRequired, // Expecting handleSearchShift to be a function
+  };
 
 export default SearchBar;
