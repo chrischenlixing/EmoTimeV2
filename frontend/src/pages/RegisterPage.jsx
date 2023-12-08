@@ -65,7 +65,7 @@ function RegisterPage() {
                   <div className="card">
                     <div className="card-body">
                       <div className="form-group mb-4">
-                      <h1 className="register-login-title">Register</h1>
+                      <h1 className="register-login-title">Create An Account</h1>
                         <label htmlFor="username" className="aoe-text">
                           Username:
                         </label>
