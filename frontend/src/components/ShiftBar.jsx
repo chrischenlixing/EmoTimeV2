@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const ShiftBar = ({ handleAddShift }) => {
   const [selectedShift, setSelectedShift] = useState('');
@@ -38,4 +39,8 @@ const ShiftBar = ({ handleAddShift }) => {
   );
   };
 
+  ShiftBar.propTypes = {
+    handleAddShift: PropTypes.func.isRequired, 
+  };
+  
   export default ShiftBar;

@@ -32,3 +32,13 @@ header {
   #register-box {
     width: 600px; /* Set the width to 400 pixels */
   }
+
+  .register-login-title {
+    color: #000; /* Change the text color */
+    background-color: #fff; /* Change the background color */
+}
+
+.card {
+    color: #000; /* Change the text color */
+    background-color: #fff; /* Change the background color */
+}

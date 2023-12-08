@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "Noah",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Essie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Barbara",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lillian",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Winifred",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lettie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Evelyn",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Clara",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Ora",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cora",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lee",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Stephen",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Paul",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Susie",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lenora",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Willie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Adelaide",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alfred",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Pearl",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nelle",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mark",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Danny",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Hilda",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mike",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bessie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Christina",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Carolyn",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Virgie",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Brandon",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Janie",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Elizabeth",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nina",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Craig",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "George",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Birdie",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Gregory",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ray",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Rosalie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Daisy",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Augusta",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Joe",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Essie",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ola",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Derrick",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Marc",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Charles",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jayden",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Thomas",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ivan",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Teresa",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Frances",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Lettie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Bertha",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Antonio",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Etta",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Ruth",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Hallie",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Vera",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Harry",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Marvin",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Charles",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Joe",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Benjamin",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Elizabeth",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Don",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Charles",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Billy",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Timothy",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Carl",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nathan",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Rhoda",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Vera",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Georgia",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Ellen",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Curtis",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nathan",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Annie",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Florence",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Kate",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Derek",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Florence",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Leona",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Todd",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Pauline",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Marie",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Delia",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jacob",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Myrtie",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Matthew",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Gabriel",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Rachel",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Isabelle",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Bettie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Lora",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ricardo",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lucille",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Edith",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ophelia",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Don",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Troy",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Edith",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Bertie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Lawrence",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Dollie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alex",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Stanley",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Alma",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Christopher",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lola",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Josie",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Nell",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Gussie",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Gertrude",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bess",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Emilie",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Essie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Samuel",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Adrian",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bertie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lina",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Austin",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Ruth",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Carlos",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Cecelia",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jesse",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Aaron",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sue",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Eleanor",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jordan",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Etta",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Fanny",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Isabelle",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Larry",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jay",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Adeline",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Isabelle",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lizzie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Flora",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Betty",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Lewis",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Warren",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeremiah",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Della",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Clarence",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Hilda",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sylvia",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Eleanor",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Danny",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Josie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Jack",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Myrtle",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lida",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Edwin",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lucile",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Amelia",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lizzie",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Dale",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Stella",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Jennie",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Theodore",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mark",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sophie",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Isaiah",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Adam",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Frances",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Harold",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Lottie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Austin",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lily",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jeffrey",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lettie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Norman",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Edwin",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Floyd",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ethel",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Nicholas",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Dale",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lela",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Laura",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Tyler",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Seth",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mattie",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "George",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Rosa",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Louise",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Theresa",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Christopher",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Myrtle",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Mary",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Victor",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Emily",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Antonio",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Donald",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Seth",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Hettie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Kenneth",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Alice",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Elsie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Herman",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Hilda",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Erik",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Georgia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jean",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Josie",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Hulda",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Essie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Louisa",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Dustin",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Madge",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Jackson",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alberta",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Virginia",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Elmer",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Leona",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Kathryn",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Agnes",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Earl",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Rodney",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Edgar",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Katie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Harold",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Randy",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Dora",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Hunter",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Adeline",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Maud",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Miguel",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Juan",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Kate",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Sadie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Sara",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lenora",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Francis",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Alan",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ann",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Ora",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Alfred",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Loretta",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mattie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Susie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Cynthia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mollie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Georgia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ryan",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Leona",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Helena",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alexander",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ollie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Herbert",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brian",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Eugenia",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Stanley",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Leonard",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brandon",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Elva",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Phillip",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Eddie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Connor",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Elva",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Lydia",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Eva",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ann",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mayme",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Mabel",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Addie",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Christine",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Owen",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jay",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Emily",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Zachary",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Theodore",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jerry",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brett",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Bradley",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Olga",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Myrtie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Katie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "David",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lida",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nancy",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Marc",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Lena",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jeffery",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Chris",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Devin",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Rosetta",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Amy",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Clayton",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Helena",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Eva",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Tillie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Arthur",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sara",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Frederick",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Edgar",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Belle",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Don",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Maggie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Corey",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "May",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Rachel",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Amelia",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Amy",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Josephine",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Gene",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Marian",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Christian",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Owen",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Bernice",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Edwin",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nathan",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Ronnie",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Harvey",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Tom",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Leroy",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Luella",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Shawn",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Scott",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jeffery",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Cory",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Adeline",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Rosalie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Ricardo",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Clayton",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Kate",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Phillip",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Jane",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Christine",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Dominic",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Essie",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Verna",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Jeffery",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lily",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Howard",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Roxie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Ophelia",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Carlos",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ella",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Kate",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Leon",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Antonio",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mayme",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Esther",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Roger",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Myrtie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Lenora",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Barry",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Dominic",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Jackson",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jane",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Isabel",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Marie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mattie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Charlie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Ruth",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ella",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jim",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Warren",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Edith",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Joshua",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Francis",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Clara",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Erik",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Herman",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Frank",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Inez",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lenora",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lelia",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Allie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Harry",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sylvia",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Tillie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Corey",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Daniel",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jay",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Kathryn",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Adam",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Josephine",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bradley",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Chad",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alan",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Harvey",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Herbert",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lenora",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Johnny",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Alberta",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gordon",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lenora",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Maud",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Phillip",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Brent",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Anne",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Birdie",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Roy",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "James",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ethel",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Rebecca",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ethel",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mina",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nathaniel",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Mabelle",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Norman",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Marie",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lizzie",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jean",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Zachary",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Duane",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Max",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cynthia",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Steven",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ronnie",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Larry",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Elizabeth",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nancy",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alta",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Leona",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Hattie",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Julian",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alex",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Chase",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Jason",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Helena",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Viola",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Matilda",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Steven",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Donald",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Eugenia",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jane",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jose",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Chad",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Grace",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Caroline",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ophelia",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Johnny",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Gilbert",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Chase",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Mae",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nettie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brett",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Charles",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Roxie",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Virginia",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ivan",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Flora",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eddie",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Evan",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "John",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Annie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Marion",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Kate",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Lola",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Della",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bobby",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cecelia",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Billy",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mabel",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Connor",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Augusta",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Joseph",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Tom",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Luke",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Jerry",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Isabelle",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Adele",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lina",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Cole",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bryan",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cecilia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Angel",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Theodore",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Harriett",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Martha",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Arthur",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Marvin",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Iva",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Iva",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Martha",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bobby",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Danny",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Hulda",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Derrick",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Herbert",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Floyd",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jeanette",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mable",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Genevieve",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lydia",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Clayton",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Emily",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Herbert",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "David",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Edna",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jared",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Rodney",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lilly",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Madge",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Andre",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mollie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ida",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Curtis",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeremiah",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Gussie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Joel",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nina",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jared",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Arthur",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Jack",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Estella",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Luella",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Wesley",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Marian",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Tillie",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brian",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jacob",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ethel",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ernest",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Louise",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Bertha",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jackson",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Chad",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Katharine",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Juan",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Dorothy",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Lizzie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Ruth",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Adrian",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Wayne",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Allie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Miguel",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Lula",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Landon",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Laura",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Austin",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Max",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alexander",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Barbara",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jordan",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jackson",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Dale",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Catherine",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Duane",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Rhoda",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Ann",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Margaret",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Connor",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gabriel",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Eugene",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lester",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Russell",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Kenneth",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Hannah",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lela",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Walter",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Michael",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Eugene",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Beulah",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeremy",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Hester",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Charlie",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Elva",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Raymond",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Herman",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Patrick",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Clifford",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Minerva",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Francis",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eric",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Theresa",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ophelia",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Carl",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Landon",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Brandon",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eugenia",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Kate",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Adam",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Allen",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Pauline",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Bruce",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Kevin",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Don",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Myrtie",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Edna",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Troy",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Catherine",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lina",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Shawn",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Derek",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Marcus",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Eugene",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Charlie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Keith",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "David",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ida",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Maud",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Emma",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ricky",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Randall",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Johanna",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Stanley",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Melvin",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Isabel",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "William",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mae",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lottie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Josie",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jason",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Clayton",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cornelia",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Hallie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jennie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Lina",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Viola",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Leon",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jeffery",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Maggie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Violet",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Annie",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Franklin",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Charlotte",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Ricky",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Augusta",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lois",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Millie",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ada",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mitchell",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Julian",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mildred",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Charles",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lawrence",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Isaiah",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Iva",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Charles",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Landon",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Randall",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Iva",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ray",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Agnes",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Carrie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Georgie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Winnie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Chad",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Francis",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ricky",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Adelaide",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alfred",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cecelia",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Theresa",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Eliza",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ann",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Elnora",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Daniel",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alta",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Minerva",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Minnie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Viola",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Wayne",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Kyle",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Carlos",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Lora",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Caroline",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Christian",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lillie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Hallie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Timothy",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Cecelia",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mildred",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eleanor",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Tom",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Connor",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ellen",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Douglas",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Alma",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nicholas",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Tillie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Russell",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alex",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Gerald",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Bertha",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Madge",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Hulda",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lulu",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Daniel",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Daisy",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Ralph",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "May",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Marc",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Gerald",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Harold",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Juan",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Amanda",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Charlie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Nora",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ruth",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Jane",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Belle",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gene",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Minnie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Laura",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Maurice",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Rose",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Callie",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mattie",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eleanor",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Bettie",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Roger",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ronnie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Fannie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Victor",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Elnora",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Daisy",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Rosie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Rosalie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Martha",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Genevieve",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Luke",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gilbert",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ralph",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Linnie",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nannie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Georgia",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Timothy",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Bertie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Violet",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Alberta",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Clifford",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Steve",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Linnie",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Blanche",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Della",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Tommy",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alejandro",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Viola",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Hallie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Henry",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Tyler",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Don",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Jon",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Elva",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Brett",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Phillip",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Amelia",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Charlotte",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mina",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ivan",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Carlos",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jim",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Oscar",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Lester",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Bobby",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Charlie",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Gene",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jackson",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sam",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jeremy",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Rosie",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Francis",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Devin",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Nancy",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Walter",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Clifford",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Milton",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Larry",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Marguerite",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "David",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Florence",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Tillie",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Lura",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Rebecca",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Sallie",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Elnora",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Vincent",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Robert",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Elmer",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Timothy",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Edith",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Olga",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Ernest",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Antonio",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Leo",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sally",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Stella",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Inez",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Cecilia",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Joe",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Roy",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Noah",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Leona",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Maggie",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Earl",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Angel",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Myrtle",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Maud",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Mattie",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Aaron",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Pearl",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Douglas",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Julia",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lee",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Albert",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Alan",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Tillie",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Charles",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Carlos",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Jennie",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Brent",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Phoebe",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Tyler",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Sallie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Lora",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Christine",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Florence",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Hilda",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Lucille",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Charles",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jack",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Raymond",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Max",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Teresa",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Eunice",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nellie",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Sylvia",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Bernard",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Ronald",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Roxie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Ryan",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Eugenia",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Addie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Mayme",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Franklin",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Josephine",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Isabel",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Billy",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Tommy",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cody",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jeffrey",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Adeline",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jose",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Douglas",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Clayton",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Isabella",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ina",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Millie",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Tom",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeremiah",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Eva",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Andrew",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nannie",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Janie",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Carrie",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Cornelia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ralph",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Christopher",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Katharine",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Hettie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Milton",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Sally",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Daisy",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Garrett",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Austin",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Carl",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Ina",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Isaiah",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Olive",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Cynthia",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeanette",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Gerald",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Dennis",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Rose",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Estella",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Hattie",
+    "shift": "Sunday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Ollie",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Celia",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Nina",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Amelia",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Duane",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Essie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Harriett",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ann",
+    "shift": "Tuesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Derek",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Harry",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Sallie",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Jack",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Jesus",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Theodore",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Nathaniel",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Lillie",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Vernon",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Tillie",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Myrtle",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jonathan",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Jayden",
+    "shift": "Monday",
+    "reviews": null
+  },
+  {
+    "name": "Sally",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Elijah",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Hallie",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mina",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Dennis",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gilbert",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Chad",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Emma",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Herman",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Ella",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Nathan",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Fanny",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Hulda",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Garrett",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Robert",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Vincent",
+    "shift": "Friday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Abbie",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Maud",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Rose",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Rosalie",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Rosie",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Maggie",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Elsie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Jon",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Sophie",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Lee",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Florence",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Brett",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Brett",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Ernest",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Dora",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Kathryn",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Mattie",
+    "shift": "Monday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Evelyn",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Delia",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Willie",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Garrett",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Lee",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mabelle",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "John",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Nelle",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Marion",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Maud",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Gilbert",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Paul",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Paul",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Adam",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Barbara",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Jimmy",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Garrett",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Jeremy",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Leah",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Julian",
+    "shift": "Thursday",
+    "reviews": null
+  },
+  {
+    "name": "Calvin",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Estelle",
+    "shift": "Monday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Dollie",
+    "shift": "Tuesday",
+    "reviews": null
+  },
+  {
+    "name": "Scott",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Hilda",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Christian",
+    "shift": "Sunday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Corey",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Mae",
+    "shift": "Friday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Pauline",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Edna",
+    "shift": "Tuesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Martin",
+    "shift": "Tuesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Callie",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Susie",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Earl",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Phillip",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mike",
+    "shift": "Friday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Sophie",
+    "shift": "Wednesday",
+    "reviews": null
+  },
+  {
+    "name": "Calvin",
+    "shift": "Thursday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Linnie",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Rosie",
+    "shift": "Sunday",
+    "reviews": null
+  },
+  {
+    "name": "Minerva",
+    "shift": "Friday",
+    "reviews": null
+  },
+  {
+    "name": "Emily",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Adelaide",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ophelia",
+    "shift": "Thursday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Celia",
+    "shift": "Saturday",
+    "reviews": "Good"
+  },
+  {
+    "name": "John",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Glen",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Mollie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "William",
+    "shift": "Saturday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Elmer",
+    "shift": "Saturday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Eva",
+    "shift": "Saturday",
+    "reviews": null
+  },
+  {
+    "name": "Alex",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Hilda",
+    "shift": "Sunday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Beatrice",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Ricardo",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Kenneth",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Oscar",
+    "shift": "Monday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Shawn",
+    "shift": "Wednesday",
+    "reviews": "Bad"
+  },
+  {
+    "name": "Edward",
+    "shift": "Wednesday",
+    "reviews": "Good"
+  },
+  {
+    "name": "Bess",
+    "shift": "Wednesday",
+    "reviews": "Average"
+  },
+  {
+    "name": "Lillie",
+    "shift": "Thursday",
+    "reviews": "Bad"
+  }
+]
