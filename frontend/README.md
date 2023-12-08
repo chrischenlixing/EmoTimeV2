@@ -24,13 +24,13 @@ The goal of this project is for us applying the concepts learned by building a b
 ## Typography
 
 ## Color Palette
-For the login and sign up pages, we used this color palette.
-<img>
+For the login and register pages, we used this color palette:
+<img alt="login and sign up color palette" src="./screenshots/palette.png">
 
-For the Employees and Manager pages, we used this color palette.
-<img>
+For the Employees and Manager pages, we used this color palette:
+<img alt="Employees and Manager page color palette" src="./screenshots/palettes.png">
 
-## [Lighthouse Accessibility Report]
+## Lighthouse Accessibility Report
 
 
 ## Install, Build & Run
