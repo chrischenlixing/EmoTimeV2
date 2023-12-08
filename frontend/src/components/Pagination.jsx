@@ -74,8 +74,6 @@ function Pagination(props) {
     return (
    
         <div className="aot-pagination">
-            {totalPages > 0 && (
-                <>
                 <nav aria-label={`${props.id}_pagination`}>
                     <ul className="pagination">
                         <li className="page-item">
@@ -119,8 +117,7 @@ function Pagination(props) {
                     </select>
                 </span>
             </div>
-            </>
-            )}
+  
         </div>
      
     );
