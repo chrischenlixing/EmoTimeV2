@@ -8,10 +8,18 @@
 
 ## Presentations
 
-[Demo](https://www.youtube.com/watch?v=2cqpkaeSc_g) 
+[Demo](https://www.youtube.com/watch?v=2cqpkaeSc_g)
+
+
 [Slides](https://docs.google.com/presentation/d/1vkf4IBoE7-tFytDtSmMGyvcaLikKdy54aQKZRyVM_mc/edit#slide=id.g24cd280f8a6_0_0)
+
+
 [ThumbNail](https://chrischenlixing.github.io/chrisWebP1/assets/img/project3Thumbnail.jpg)
+
+
 [Design Mockup](https://docs.google.com/document/d/1QPio52yecLAAEOVclxlaKdpKix84D44by-qZ4-t5M30/edit)
+
+
 
 ## Class Link
 
@@ -25,10 +33,16 @@ The goal of this project is for us applying the concepts learned by building a b
 
 ## Color Palette
 For the login and register pages, we used this color palette:
+
+
 <img alt="login and sign up color palette" src="./screenshots/palette.png">
 
+
 For the Employees and Manager pages, we used this color palette:
+
+
 <img alt="Employees and Manager page color palette" src="./screenshots/palettes.png">
+
 
 ## Lighthouse Accessibility Report
 
@@ -38,31 +52,52 @@ For the Employees and Manager pages, we used this color palette:
 1. Clone this repository.
 2. Run 'npm install'.
 3. Have MongoDB open
-3. Run 'node start'.
+4. Run 'node start'.
 
 
 ## Functionalities
 
 
 Authentications: User can choose to sign up based on role and login and logout @Lixing Chen
+
+
 Employee Page @Lixing Chen:
+
+
 Add Shifts: Add shifts based on the dates
+
+
 Display Shifts: Create a table to display all the added shifts for himself
+
+
 Delete Shifts: Delete the shift
+
+
 
 
 Manager Page @Junyi Liu:
+
+
 Search Shifts: Search shifts based on employee name/shift
+
+
 Display Shifts: Create a table to display all the shifts for all employees
+
+
 Review: Leave reviews for a specific shift
+
+
 Delete Shifts: Delete the shift
 
+
 Pagination: Display pages based on the wanted shift counts @Lixing Chen
+
 
 NavBar: Display a Navbar with role and calendar @Junyi Liu
 
 
-##Screenshot
+
+## Screenshot
 Login Page:
 
 <img alt="login page screenshot" src="./screenshots/loginpage.png">
