@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './NavBar.css';
+import Calendar  from './MyCalendar';
 import { useUserRole } from '../hooks/UseUserRole';
 import { Modal } from 'react-bootstrap';
 import SearchBar from './SearchBar';
 import ShiftBar from './ShiftBar';
+import PropTypes from 'prop-types';
 
 function NavBar({ handleSearchShift, handleAddShift, logOut }) {
   const { position, username } = useUserRole();
@@ -63,10 +65,24 @@ function NavBar({ handleSearchShift, handleAddShift, logOut }) {
       </div>
 
       <Modal show={isModalOpen} onHide={closeModal}>
-        {/* Modal content... */}
+        <Modal.Header closeButton>
+          <Modal.Title>Calendar</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Calendar></Calendar>
+        </Modal.Body>
+        <Modal.Footer>
+          <button onClick={closeModal}>Close</button>
+        </Modal.Footer>
       </Modal>
     </nav>
   );
 }
+
+NavBar.propTypes = {
+  handleSearchShift: PropTypes.func.isRequired, 
+  handleAddShift: PropTypes.func.isRequired, 
+  logOut: PropTypes.func.isRequired, 
+};
 
 export default NavBar;
