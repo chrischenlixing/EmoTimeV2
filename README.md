@@ -64,43 +64,37 @@ For the Employees and Manager pages, we used this color palette:
 ## Functionalities
 
 
+
 Authentications: User can choose to sign up based on role and login and logout @Lixing Chen
 
 
 Employee Page @Lixing Chen:
 
-
 Add Shifts: Add shifts based on the dates
 
+Clock In: Clock in for creating a timestamp
 
-Display Shifts: Create a table to display all the added shifts for himself
-
+Display Shifts: Create a table to display all the added shifts for himself and see reviews
 
 Delete Shifts: Delete the shift
 
 
-
-
 Manager Page @Junyi Liu:
-
 
 Search Shifts: Search shifts based on employee name/shift
 
-
 Display Shifts: Create a table to display all the shifts for all employees
 
+Check Clock In: Check the clockin time for current employee
 
 Review: Leave reviews for a specific shift
-
 
 Delete Shifts: Delete the shift
 
 
 Pagination: Display pages based on the wanted shift counts @Lixing Chen
 
-
 NavBar: Display a Navbar with role and calendar @Junyi Liu
-
 
 
 ## Screenshots
