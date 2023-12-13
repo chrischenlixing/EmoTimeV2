@@ -8,7 +8,7 @@
 
 ## Presentations
 
-[Demo Video](https://www.youtube.com/watch?v=2cqpkaeSc_g](https://www.youtube.com/watch?v=0380zYV1MJo)
+[Demo Video](https://www.youtube.com/watch?v=2cqpkaeSc_g](https://www.youtube.com/watch?v=0380zYV1MJo))
 
 
 [Slides](https://docs.google.com/presentation/d/1oHyjzH2UGZ7mYpVviHLmhWODuOv_OAPVzgRIB9HTQ1A/edit?usp=sharing)
