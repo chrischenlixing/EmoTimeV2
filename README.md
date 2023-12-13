@@ -8,7 +8,7 @@
 
 ## Presentations
 
-[Demo Video]([https://www.youtube.com/watch?v=2cqpkaeSc_g](https://www.youtube.com/watch?v=0380zYV1MJo))
+[Demo Video](https://www.youtube.com/watch?v=2cqpkaeSc_g](https://www.youtube.com/watch?v=0380zYV1MJo)
 
 
 [Slides](https://docs.google.com/presentation/d/1oHyjzH2UGZ7mYpVviHLmhWODuOv_OAPVzgRIB9HTQ1A/edit?usp=sharing)
@@ -64,7 +64,6 @@ For the Employees and Manager pages, we used this color palette:
 ## Functionalities
 
 
-
 Authentications: The user can choose to sign up based on role and login and logout @Lixing Chen
 
 
@@ -96,7 +95,8 @@ Pagination: Display pages based on the wanted shift counts @Lixing Chen
 
 NavBar: Display a Navbar with role and calendar @Junyi Liu
 
-Changes Made
+
+## Changes Made
 
 Typography Update
 
