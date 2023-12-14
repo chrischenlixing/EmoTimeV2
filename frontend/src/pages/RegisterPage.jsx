@@ -64,19 +64,21 @@ function RegisterPage() {
                 >
                   <div className="card">
                     <div className="card-body">
-                    <div className="form-group mb-4">
-                      
-                        <label htmlFor="position" className="aoe-text">
-                          Position:
-                        </label>
-                        <select className="form-select" name="position" id="position">
-                          <option value="manager">Manager</option>
-                          <option value="employee">Employee</option>
-                        </select>
-                      </div>
+
 
                       <div className="form-group mb-4">
                       <h1 className="register-login-title">Create An Account</h1>
+                      <div className="form-group mb-4">
+                      
+                      <label htmlFor="position" className="aoe-text">
+                        Position:
+                      </label>
+                      <select className="form-select" name="position" id="position">
+                        <option value="manager">Manager</option>
+                        <option value="employee">Employee</option>
+                      </select>
+                    </div>
+                    
                         <label htmlFor="username" className="aoe-text">
                           Username:
                         </label>
