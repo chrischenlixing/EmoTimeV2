@@ -64,6 +64,17 @@ function RegisterPage() {
                 >
                   <div className="card">
                     <div className="card-body">
+                    <div className="form-group mb-4">
+                      
+                        <label htmlFor="position" className="aoe-text">
+                          Position:
+                        </label>
+                        <select className="form-select" name="position" id="position">
+                          <option value="manager">Manager</option>
+                          <option value="employee">Employee</option>
+                        </select>
+                      </div>
+
                       <div className="form-group mb-4">
                       <h1 className="register-login-title">Create An Account</h1>
                         <label htmlFor="username" className="aoe-text">
@@ -87,15 +98,7 @@ function RegisterPage() {
                           className="form-control"
                         />
                       </div>
-                      <div className="form-group mb-4">
-                        <label htmlFor="position" className="aoe-text">
-                          Position:
-                        </label>
-                        <select className="form-select" name="position" id="position">
-                          <option value="manager">Manager</option>
-                          <option value="employee">Employee</option>
-                        </select>
-                      </div>
+
                       <div className="form-group">
                         <button type="submit" className="btn btn-info btn-lg aoe-btn-submit">Register</button>
 

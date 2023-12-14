@@ -355,7 +355,6 @@ function EmployeePage() {
                                         <tbody ref={modalTable}></tbody>
                                     </table>
                                 </div>
-                                <Pagination totalNumber={modalTotalNumber} pageChange={onModalPageChange} rowPerPageChange={onModalRowPerPageChange} id="employeeModule" />
                                 <div className="modal-footer">
                                     <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 </div>
