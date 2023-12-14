@@ -4,14 +4,14 @@
 
 ## Project Link 
 
-[Main Page](https://emotime.onrender.com/)
+[EmoTime Link](https://emotimefinal.onrender.com/)
 
 ## Presentations
 
 [Demo](https://www.youtube.com/watch?v=2cqpkaeSc_g)
 
 
-[Slides](https://docs.google.com/presentation/d/1vkf4IBoE7-tFytDtSmMGyvcaLikKdy54aQKZRyVM_mc/edit#slide=id.g24cd280f8a6_0_0)
+[Slides](https://docs.google.com/presentation/d/1oHyjzH2UGZ7mYpVviHLmhWODuOv_OAPVzgRIB9HTQ1A/edit?usp=sharing)
 
 
 [ThumbNail](https://chrischenlixing.github.io/chrisWebP1/assets/img/project3Thumbnail.jpg)
@@ -31,7 +31,12 @@ The goal of this project is for us applying the concepts learned by building a b
 
 ## Typography
 
-## Color Palette
+Heading -- sans-serif
+
+
+Paragraphs -- Arial
+
+## Color Palettes
 For the login and register pages, we used this color palette:
 
 
@@ -45,6 +50,7 @@ For the Employees and Manager pages, we used this color palette:
 
 
 ## Lighthouse Accessibility Report
+<img alt="Lighthouse Accessibility Report Screenshot" src="./screenshots/lighthouse.jpg">
 
 
 ## Install, Build & Run
@@ -97,7 +103,7 @@ NavBar: Display a Navbar with role and calendar @Junyi Liu
 
 
 
-## Screenshot
+## Screenshots
 Login Page:
 
 <img alt="login page screenshot" src="./screenshots/loginpage.png">
@@ -111,12 +117,28 @@ Register Page:
 
 Employee Page:
 
-<img alt="employee page screenshot" src="./screenshots/employeepage.png">
+<img alt="employee page screenshot" src="./screenshots/employeepage2.png">
 
 
 Manager Page:
 
-<img alt="employee page screenshot" src="./screenshots/managerpage.png">
+<img alt="manager page screenshot" src="./screenshots/managerpage1.png">
+
+
+Review:
+
+<img alt="review window screenshot" src="./screenshots/review.png">
+
+
+Employee Page After Review:
+
+<img alt="employee page screenshot" src="./screenshots/employeepage1.png">
+
+
+
+
+
+
 
 
 
