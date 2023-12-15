@@ -156,7 +156,8 @@ Employee Page After Review:
 <img alt="employee page screenshot" src="./screenshots/employeepage1.png">
 
 
-
+<!--peer review:
+This project showcases exceptional work! The chosen color scheme is refreshingly innovative, adding a vibrant touch to the design. I particularly appreciate the simplicity and efficiency of the search bar; it makes locating employee details or specific shift dates a breeze. Overall, the functionality and aesthetics are seamlessly integrated, resulting in a flawless execution. Great job!-->
 
 
 
