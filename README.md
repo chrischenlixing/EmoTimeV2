@@ -37,6 +37,7 @@ Heading -- sans-serif
 Paragraphs -- Arial
 
 ## Color Palettes
+/* I like the overall design of the webpage. However, I think it would look cleaner and more professional if you stick with the same color palette. */
 For the login and register pages, we used this color palette:
 
 
